@@ -1,0 +1,18 @@
+{
+  "name": "reminder-bot",
+  "version": "1.0.0",
+  "description": "A Slack bot that reminds IA about clarification inquiries",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@slack/bolt": "^3.11.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.18"
+  }
+}
